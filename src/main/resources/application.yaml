@@ -1,0 +1,8 @@
+brevo:
+  enabled: true
+  key: brevo-key
+  url: https://api.brevo.com/v3/smtp/email
+
+spring:
+  config:
+    import: optional:secrets.yaml
